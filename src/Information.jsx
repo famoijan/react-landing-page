@@ -14,7 +14,9 @@ import group201 from "./assets/Images/icons/Group 201.png";
 import group209 from "./assets/Images/icons/Group 109.png";
 import group113 from "./assets/Images/icons/Group 113.png";
 import benefit from "./assets/Images/icons/benefit.png";
-import group194 from "./assets/Images/icons/group 194.png";
+import group194 from "./assets/Images/icons/Group 194.png";
+import eckuose33 from "./assets/Images/icons/Ellipse 33.png";
+import circle1 from "./assets/Images/icons/circle 1.png";
 
 const Information = () => {
   return (
@@ -162,11 +164,7 @@ const Information = () => {
           </div>
           <div className="relative w-1/3">
             <div className=" flex flex-row justify-between gap-5 shadow-md shadow-gray-300 bg-white p-4 absolute -left-24 top-10 ">
-              <img
-                src="./Images/icons/Ellipse 33.png"
-                alt
-                className="w-10 h-10 "
-              />
+              <img src={eckuose33} alt className="w-10 h-10 " />
               <div className>
                 <h1 className="text-[#191A15] text-[12px] font-semibold">
                   Amanda Young
@@ -183,7 +181,7 @@ const Information = () => {
             </div>
             <div className=" flex flex-row justify-between gap-5 shadow-md shadow-gray-300 bg-white p-4 absolute -left-24 -bottom-5">
               <div className="flex gap-5">
-                <img src="./Images/icons/circle 1.png" alt className />
+                <img src={circle1} alt className />
                 <p className="text-[#191A15] text-[12px]">
                   Money Transfer Succesfull
                 </p>
